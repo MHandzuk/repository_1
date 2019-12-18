@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="script/script.js"></script>
+  </head>
+  <body>
+    <div class="dws-wrapper">
+      <div class="dws-form">
+        <!-- Вкладки на CSS -->
+        <input type="radio" id="tab-1" name="tabs" checked />
+        <label class="tab" for="tab-1" title="Вкладка 1"
+          ><h1 class="tab_11">Join</h1>
+        </label>
+
+        <input type="radio" name="tabs" id="tab-2" />
+        <label class="tab" for="tab-2" title="Вкладка 2"
+          ><h1 class="tab_12">Sign up</h1></label
+        >
+
+        <!-- Вкладки на JS -->
+        <!--<label class="tab active" title="Вкладка 1">Авторизация</label>-->
+        <!--<label class="tab " title="Вкладка 2">Регистрация</label>-->
+        <!-- </div> -->
+        <form id="form-1" class="tab-form">
+          <div class="tittle">
+            <h1 class="tittle_text">Register with...</h1>
+          </div>
+          <a href="#" class="button" id="button_1">
+            <div class="facebook_1"><img src="img/facebook.svg" alt="" /></div>
+            <div class="facebook_1_text">
+              Facebook
+            </div>
+          </a>
+          <div class="paragraph">
+            <p class="paragraph_text">
+              Signing up with social is super quick. No extra passwords to
+              remember - no brain fail.
+            </p>
+          </div>
+          <div class="box-input">
+            <input class="input" type="text" required />
+            <label>E-mail</label>
+          </div>
+
+          <div class="box-input">
+            <input class="input" type="password" required />
+            <label>Name</label>
+          </div>
+
+          <div class="box-input">
+            <input class="input" type="password" required />
+            <label>Last name</label>
+          </div>
+
+          <div class="box-input">
+            <input class="input" type="password" required />
+            <label>Password</label>
+          </div>
+          <a href="#" class="button" id="button_10">Join</a>
+        </form>
+
+        <form id="form-2" class="tab-form">
+          <input class="input" type="text" placeholder="E-mail" />
+          <input class="input" type="password" placeholder="Password" />
+          <div class="recover">
+            <input type="checkbox" id="ckbox" />
+            <label for="ckbox">Keep logged in</label>
+          </div>
+          <div class="forgotten">
+            <a href="#">Forgotten your password </a>
+          </div>
+          <a href="#" class="button">join</a>
+          <!-- <a href="#" class="button">
+            <img src="img/facebook.svg" alt="" /> LOGIN WITH FACEBOOK</a
+          > -->
+          <a href="#" class="button">
+            <div class="facebook"><img src="img/facebook.svg" alt="" /></div>
+            <div class="facebook_text">LOGIN WITH FACEBOOK</div>
+          </a>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
